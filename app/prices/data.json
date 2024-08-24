@@ -1,0 +1,604 @@
+{
+  "envios": {
+    "nacional": {
+      "precios": {
+        "zona1": {
+          "1kg": 8490.0,
+          "5kg": 11050.0,
+          "10kg": 12750.0,
+          "15kg": 14500.0,
+          "20kg": 16500.0,
+          "25kg": 19500.0
+        },
+        "zona2": {
+          "1kg": 11990.0,
+          "5kg": 16700.0,
+          "10kg": 23750.0,
+          "15kg": 30750.0,
+          "20kg": 37750.0,
+          "25kg": 44990.0
+        },
+        "zona3": {
+          "1kg": 14990.0,
+          "5kg": 22500.0,
+          "10kg": 34990.0,
+          "15kg": 47500.0,
+          "20kg": 59990.0,
+          "25kg": 72999.0
+        },
+        "zona4": {
+          "1kg": 17500.0,
+          "5kg": 26500.0,
+          "10kg": 39900.0,
+          "15kg": 53750.0,
+          "20kg": 67750.0,
+          "25kg": 83750.0
+        }
+      },
+      "zonas": {
+        "zona1": "AMBA, La Plata, Mar del Plata",
+        "zona2": "Rosario, Córdoba",
+        "zona3": "Mendoza, San Juan, Jujuy, Salta",
+        "zona4": "Resto del país"
+      }
+    },
+    "internacional": {
+      "precios": {
+        "importacion": {
+          "sin_fuel": {
+            "dox": {
+              "zona1": {
+                "0.5kg": 61.05,
+                "1kg": 78.5,
+                "2kg": 103.35
+              },
+              "zona2": {
+                "0.5kg": 75.66,
+                "1kg": 94.32,
+                "2kg": 129.05
+              },
+              "zona3": {
+                "0.5kg": 89.56,
+                "1kg": 115.86,
+                "2kg": 160.83
+              },
+              "zona4": {
+                "0.5kg": 117.15,
+                "1kg": 143.89,
+                "2kg": 190.51
+              },
+              "zona5": {
+                "0.5kg": 154.7,
+                "1kg": 186.41,
+                "2kg": 240.53
+              },
+              "zona6": {
+                "0.5kg": 172.87,
+                "1kg": 204.3,
+                "2kg": 258.12
+              }
+            },
+            "no_dox": {
+              "zona1": {
+                "1kg": 84.32,
+                "5kg": 150.29,
+                "10kg": 215.26,
+                "15kg": 267.86,
+                "20kg": 320.46,
+                "25kg": 373.77
+              },
+              "zona2": {
+                "1kg": 88.44,
+                "5kg": 169.74,
+                "10kg": 243.04,
+                "15kg": 296.35,
+                "20kg": 349.66,
+                "25kg": 415.59
+              },
+              "zona3": {
+                "1kg": 94.93,
+                "5kg": 181.29,
+                "10kg": 260.78,
+                "15kg": 321.71,
+                "20kg": 382.63,
+                "25kg": 454.51
+              },
+              "zona4": {
+                "1kg": 130.47,
+                "5kg": 247.8,
+                "10kg": 370.85,
+                "15kg": 449.15,
+                "20kg": 527.45,
+                "25kg": 626.22
+              },
+              "zona5": {
+                "1kg": 145.61,
+                "5kg": 269.7,
+                "10kg": 407.5,
+                "15kg": 502.46,
+                "20kg": 597.42,
+                "25kg": 706.19
+              },
+              "zona6": {
+                "1kg": 158.17,
+                "5kg": 294.55,
+                "10kg": 445.91,
+                "15kg": 550.16,
+                "20kg": 654.4,
+                "25kg": 772.93
+              }
+            }
+          },
+          "con_fuel": {
+            "dox": {
+              "zona1": {
+                "0.5kg": 45.42,
+                "1kg": 60.28,
+                "2kg": 89.1
+              },
+              "zona2": {
+                "0.5kg": 46.76,
+                "1kg": 65.52,
+                "2kg": 101.67
+              },
+              "zona3": {
+                "0.5kg": 50.96,
+                "1kg": 70.64,
+                "2kg": 111.01
+              },
+              "zona4": {
+                "0.5kg": 69.33,
+                "1kg": 91.15,
+                "2kg": 132.57
+              },
+              "zona5": {
+                "0.5kg": 86.98,
+                "1kg": 103.96,
+                "2kg": 137.9
+              },
+              "zona6": {
+                "0.5kg": 96.63,
+                "1kg": 116.34,
+                "2kg": 155.04
+              }
+            },
+            "no_dox": {
+              "zona1": {
+                "1kg": 84.32,
+                "5kg": 150.29,
+                "10kg": 215.26,
+                "15kg": 267.86,
+                "20kg": 320.46,
+                "25kg": 373.77
+              },
+              "zona2": {
+                "1kg": 88.44,
+                "5kg": 169.74,
+                "10kg": 243.04,
+                "15kg": 296.35,
+                "20kg": 349.66,
+                "25kg": 415.59
+              },
+              "zona3": {
+                "1kg": 94.93,
+                "5kg": 181.29,
+                "10kg": 260.78,
+                "15kg": 321.71,
+                "20kg": 382.63,
+                "25kg": 454.51
+              },
+              "zona4": {
+                "1kg": 130.47,
+                "5kg": 247.8,
+                "10kg": 370.85,
+                "15kg": 449.15,
+                "20kg": 527.45,
+                "25kg": 626.22
+              },
+              "zona5": {
+                "1kg": 145.61,
+                "5kg": 269.7,
+                "10kg": 407.5,
+                "15kg": 502.46,
+                "20kg": 597.42,
+                "25kg": 706.19
+              },
+              "zona6": {
+                "1kg": 158.17,
+                "5kg": 294.55,
+                "10kg": 445.91,
+                "15kg": 550.16,
+                "20kg": 654.4,
+                "25kg": 772.93
+              }
+            }
+          }
+        },
+        "exportacion": {
+          "sin_fuel": {
+            "dox": {
+              "zona1": {
+                "0.5kg": 61.05,
+                "1kg": 78.5,
+                "2kg": 103.35
+              },
+              "zona2": {
+                "0.5kg": 75.66,
+                "1kg": 94.32,
+                "2kg": 129.05
+              },
+              "zona3": {
+                "0.5kg": 89.56,
+                "1kg": 115.86,
+                "2kg": 160.83
+              },
+              "zona4": {
+                "0.5kg": 117.15,
+                "1kg": 143.89,
+                "2kg": 190.51
+              },
+              "zona5": {
+                "0.5kg": 154.7,
+                "1kg": 186.41,
+                "2kg": 240.53
+              },
+              "zona6": {
+                "0.5kg": 172.87,
+                "1kg": 204.3,
+                "2kg": 258.12
+              }
+            },
+            "no_dox": {
+              "zona1": {
+                "1kg": 84.32,
+                "5kg": 150.29,
+                "10kg": 215.26,
+                "15kg": 267.86,
+                "20kg": 320.46,
+                "25kg": 373.77
+              },
+              "zona2": {
+                "1kg": 88.44,
+                "5kg": 169.74,
+                "10kg": 243.04,
+                "15kg": 296.35,
+                "20kg": 349.66,
+                "25kg": 415.59
+              },
+              "zona3": {
+                "1kg": 94.93,
+                "5kg": 181.29,
+                "10kg": 260.78,
+                "15kg": 321.71,
+                "20kg": 382.63,
+                "25kg": 454.51
+              },
+              "zona4": {
+                "1kg": 130.47,
+                "5kg": 247.8,
+                "10kg": 370.85,
+                "15kg": 449.15,
+                "20kg": 527.45,
+                "25kg": 626.22
+              },
+              "zona5": {
+                "1kg": 145.61,
+                "5kg": 269.7,
+                "10kg": 407.5,
+                "15kg": 502.46,
+                "20kg": 597.42,
+                "25kg": 706.19
+              },
+              "zona6": {
+                "1kg": 158.17,
+                "5kg": 294.55,
+                "10kg": 445.91,
+                "15kg": 550.16,
+                "20kg": 654.4,
+                "25kg": 772.93
+              }
+            }
+          },
+          "con_fuel": {
+            "dox": {
+              "zona1": {
+                "0.5kg": 45.42,
+                "1kg": 60.28,
+                "2kg": 89.1
+              },
+              "zona2": {
+                "0.5kg": 46.76,
+                "1kg": 65.52,
+                "2kg": 101.67
+              },
+              "zona3": {
+                "0.5kg": 50.96,
+                "1kg": 70.64,
+                "2kg": 111.01
+              },
+              "zona4": {
+                "0.5kg": 69.33,
+                "1kg": 91.15,
+                "2kg": 132.57
+              },
+              "zona5": {
+                "0.5kg": 86.98,
+                "1kg": 103.96,
+                "2kg": 137.9
+              },
+              "zona6": {
+                "0.5kg": 96.63,
+                "1kg": 116.34,
+                "2kg": 155.04
+              }
+            },
+            "no_dox": {
+              "zona1": {
+                "1kg": 84.32,
+                "5kg": 150.29,
+                "10kg": 215.26,
+                "15kg": 267.86,
+                "20kg": 320.46,
+                "25kg": 373.77
+              },
+              "zona2": {
+                "1kg": 88.44,
+                "5kg": 169.74,
+                "10kg": 243.04,
+                "15kg": 296.35,
+                "20kg": 349.66,
+                "25kg": 415.59
+              },
+              "zona3": {
+                "1kg": 94.93,
+                "5kg": 181.29,
+                "10kg": 260.78,
+                "15kg": 321.71,
+                "20kg": 382.63,
+                "25kg": 454.51
+              },
+              "zona4": {
+                "1kg": 130.47,
+                "5kg": 247.8,
+                "10kg": 370.85,
+                "15kg": 449.15,
+                "20kg": 527.45,
+                "25kg": 626.22
+              },
+              "zona5": {
+                "1kg": 145.61,
+                "5kg": 269.7,
+                "10kg": 407.5,
+                "15kg": 502.46,
+                "20kg": 597.42,
+                "25kg": 706.19
+              },
+              "zona6": {
+                "1kg": 158.17,
+                "5kg": 294.55,
+                "10kg": 445.91,
+                "15kg": 550.16,
+                "20kg": 654.4,
+                "25kg": 772.93
+              }
+            }
+          }
+        }
+      },
+      "zonas": {
+        "zona1": [
+          { "name": "Bolivia", "code": "BO" },
+          { "name": "Brasil", "code": "BR" },
+          { "name": "Chile", "code": "CL" },
+          { "name": "Paraguay", "code": "PY" },
+          { "name": "Uruguay", "code": "UY" }
+        ],
+        "zona2": [
+          { "name": "Anguila", "code": "AI" },
+          { "name": "Antigua", "code": "AG" },
+          { "name": "Aruba", "code": "AW" },
+          { "name": "Bahamas", "code": "BS" },
+          { "name": "Barbados", "code": "BB" },
+          { "name": "Belice", "code": "BZ" },
+          { "name": "Bermuda", "code": "BM" },
+          { "name": "Bonaire", "code": "XB" },
+          { "name": "Colombia", "code": "CO" },
+          { "name": "Costa Rica", "code": "CR" },
+          { "name": "Cuba", "code": "CU" },
+          { "name": "Curacao", "code": "XC" },
+          { "name": "Dominica", "code": "DM" },
+          { "name": "Ecuador", "code": "EC" },
+          { "name": "El Salvador", "code": "SV" },
+          { "name": "Granada", "code": "GD" },
+          { "name": "Guadalupe", "code": "GP" },
+          { "name": "Guatemala", "code": "GT" },
+          { "name": "Guayana Francesa", "code": "GF" },
+          { "name": "Guyana", "code": "GY" },
+          { "name": "Haití", "code": "HT" },
+          { "name": "Honduras", "code": "HN" },
+          { "name": "Isla Malvinas", "code": "FK" },
+          { "name": "Islas Caimán", "code": "KY" },
+          { "name": "Islas Turcas y Caicos", "code": "TC" },
+          { "name": "Islas Vírgenes (US)", "code": "VI" },
+          { "name": "Islas Vírgenes Británicas", "code": "VG" },
+          { "name": "Jamaica", "code": "JM" },
+          { "name": "Martinica", "code": "MQ" },
+          { "name": "Montserrat", "code": "MS" },
+          { "name": "Nevis", "code": "XN" },
+          { "name": "Nicaragua", "code": "NI" },
+          { "name": "Panamá", "code": "PA" },
+          { "name": "Perú", "code": "PE" },
+          { "name": "Puerto Rico", "code": "PR" },
+          { "name": "República Dominicana", "code": "" },
+          { "name": "San Bartolomé", "code": "XY" },
+          { "name": "San Eustaquio", "code": "XE" },
+          { "name": "San Vicente", "code": "VC" },
+          { "name": "Santa Lucía", "code": "LC" },
+          { "name": "St. Kitts", "code": "KN" },
+          { "name": "St. Maarten", "code": "XM" },
+          { "name": "Suriname", "code": "SR" },
+          { "name": "Trinidad y Tobago", "code": "TT" },
+          { "name": "Venezuela", "code": "VE" }
+        ],
+        "zona3": [
+          { "name": "Canadá", "code": "CA" },
+          { "name": "Estados Unidos", "code": "US" },
+          { "name": "México", "code": "MX" }
+        ],
+        "zona4": [
+          { "name": "Alemania", "code": "DE" },
+          { "name": "Andorra", "code": "AD" },
+          { "name": "Austria", "code": "AT" },
+          { "name": "Belarús", "code": "BY" },
+          { "name": "Bosnia-Herzegovina", "code": "BA" },
+          { "name": "Bulgaria", "code": "BG" },
+          { "name": "Bélgica", "code": "BE" },
+          { "name": "Chipre", "code": "CY" },
+          { "name": "Ciudad del Vaticano", "code": "VA" },
+          { "name": "Croacia", "code": "HR" },
+          { "name": "Dinamarca", "code": "DK" },
+          { "name": "Eslovenia", "code": "SI" },
+          { "name": "España", "code": "ES" },
+          { "name": "Estonia", "code": "EE" },
+          { "name": "Finlandia", "code": "FI" },
+          { "name": "Francia", "code": "FR" },
+          { "name": "Gibraltar", "code": "GI" },
+          { "name": "Grecia", "code": "GR" },
+          { "name": "Groenlandia", "code": "GL" },
+          { "name": "Guernsey", "code": "GG" },
+          { "name": "Hungría", "code": "HU" },
+          { "name": "Irlanda", "code": "IE" },
+          { "name": "Islandia", "code": "IS" },
+          { "name": "Islas Feroe", "code": "FO" },
+          { "name": "Italia", "code": "IT" },
+          { "name": "Jersey", "code": "JE" },
+          { "name": "Kosovo", "code": "KV" },
+          { "name": "Letonia", "code": "LV" },
+          { "name": "Liechtenstein", "code": "LI" },
+          { "name": "Lituania", "code": "LT" },
+          { "name": "Luxemburgo", "code": "LU" },
+          { "name": "Macedonia del Norte", "code": "MK" },
+          { "name": "Malta", "code": "MT" },
+          { "name": "Moldova", "code": "MD" },
+          { "name": "Montenegro", "code": "ME" },
+          { "name": "Mónaco", "code": "MC" },
+          { "name": "Noruega", "code": "NO" },
+          { "name": "Países Bajos", "code": "NL" },
+          { "name": "Polonia", "code": "PL" },
+          { "name": "Portugal", "code": "PT" },
+          { "name": "Reino Unido", "code": "GB" },
+          { "name": "Republica Checa", "code": "CZ" },
+          { "name": "Rumania", "code": "RO" },
+          { "name": "San Marino", "code": "SM" },
+          { "name": "Serbia", "code": "RS" },
+          { "name": "Suecia", "code": "SE" },
+          { "name": "Suiza", "code": "CH" },
+          { "name": "Turquía", "code": "TR" },
+          { "name": "Ucrania", "code": "UA" }
+        ],
+        "zona5": [
+          { "name": "Bangladesh", "code": "BD" },
+          { "name": "Brunei", "code": "BN" },
+          { "name": "Camboya", "code": "KH" },
+          { "name": "China", "code": "CN" },
+          { "name": "Corea", "code": "KR" },
+          { "name": "Filipinas", "code": "PH" },
+          { "name": "Hong Kong SAR China", "code": "" },
+          { "name": "India", "code": "IN" },
+          { "name": "Indonesia", "code": "ID" },
+          { "name": "Japón", "code": "JP" },
+          { "name": "Laos", "code": "LA" },
+          { "name": "Malasia", "code": "MY" },
+          { "name": "Myanmar", "code": "MM" },
+          { "name": "Nepal", "code": "NP" },
+          { "name": "Singapur", "code": "SG" },
+          { "name": "Sri Lanka", "code": "LK" },
+          { "name": "Tailandia", "code": "TH" },
+          { "name": "Taiwan", "code": "TW" },
+          { "name": "Vietnam", "code": "VN" }
+        ],
+        "zona6": [
+          { "name": "Afganistán", "code": "AF" },
+          { "name": "Angola", "code": "AO" },
+          { "name": "Arabia Saudita", "code": "SA" },
+          { "name": "Argelia", "code": "DZ" },
+          { "name": "Armenia", "code": "AM" },
+          { "name": "Australia", "code": "AU" },
+          { "name": "Azerbaiján", "code": "AZ" },
+          { "name": "Bahrain", "code": "BH" },
+          { "name": "Benín", "code": "BJ" },
+          { "name": "Botswana", "code": "BW" },
+          { "name": "Burkina Faso", "code": "BF" },
+          { "name": "Burundi", "code": "BI" },
+          { "name": "Bután", "code": "BT" },
+          { "name": "Cabo Verde", "code": "CV" },
+          { "name": "Camerún", "code": "CM" },
+          { "name": "Chad", "code": "TD" },
+          { "name": "Comoras", "code": "KM" },
+          { "name": "Congo Brazzaville", "code": "CG" },
+          { "name": "Congo-Kinshasa", "code": "CD" },
+          { "name": "Djibouti", "code": "DJ" },
+          { "name": "Egipto", "code": "EG" },
+          { "name": "Emiratos Árabes Unidos", "code": "AE" },
+          { "name": "Eritrea", "code": "ER" },
+          { "name": "Eswatini", "code": "SZ" },
+          { "name": "Etiopía", "code": "ET" },
+          { "name": "Gabón", "code": "GA" },
+          { "name": "Gambia", "code": "GM" },
+          { "name": "Georgia", "code": "GE" },
+          { "name": "Ghana", "code": "GH" },
+          { "name": "Guinea", "code": "GN" },
+          { "name": "Guinea Ecuatorial", "code": "GQ" },
+          { "name": "Guinea-Bissau", "code": "GW" },
+          { "name": "Irak", "code": "IQ" },
+          { "name": "Irán", "code": "IR" },
+          { "name": "Israel", "code": "IL" },
+          { "name": "Jordania", "code": "JO" },
+          { "name": "Kazajstán", "code": "KZ" },
+          { "name": "Kenya", "code": "KE" },
+          { "name": "Kirguistán", "code": "KG" },
+          { "name": "Kuwait", "code": "KW" },
+          { "name": "Lesoto", "code": "LS" },
+          { "name": "Líbano", "code": "LB" },
+          { "name": "Liberia", "code": "LR" },
+          { "name": "Libia", "code": "LY" },
+          { "name": "Madagascar", "code": "MG" },
+          { "name": "Malawi", "code": "MW" },
+          { "name": "Malí", "code": "ML" },
+          { "name": "Mauritania", "code": "MR" },
+          { "name": "Mauricio", "code": "MU" },
+          { "name": "Marruecos", "code": "MA" },
+          { "name": "Mozambique", "code": "MZ" },
+          { "name": "Namibia", "code": "NA" },
+          { "name": "Niger", "code": "NE" },
+          { "name": "Nigeria", "code": "NG" },
+          { "name": "Nueva Caledonia", "code": "NC" },
+          { "name": "Nueva Zelanda", "code": "NZ" },
+          { "name": "Omán", "code": "OM" },
+          { "name": "Pakistán", "code": "PK" },
+          { "name": "Palestina", "code": "PS" },
+          { "name": "Papúa Nueva Guinea", "code": "PG" },
+          { "name": "Qatar", "code": "QA" },
+          { "name": "República Centroafricana", "code": "CF" },
+          { "name": "Ruanda", "code": "RW" },
+          { "name": "Senegal", "code": "SN" },
+          { "name": "Seychelles", "code": "SC" },
+          { "name": "Sierra Leona", "code": "SL" },
+          { "name": "Somalia", "code": "SO" },
+          { "name": "Sudáfrica", "code": "ZA" },
+          { "name": "Sudán", "code": "SD" },
+          { "name": "Sudán del Sur", "code": "SS" },
+          { "name": "Tadjikistán", "code": "TJ" },
+          { "name": "Tanzania", "code": "TZ" },
+          { "name": "Togo", "code": "TG" },
+          { "name": "Turkmenistán", "code": "TM" },
+          { "name": "Uganda", "code": "UG" },
+          { "name": "Uzbekistán", "code": "UZ" },
+          { "name": "Yemen", "code": "YE" },
+          { "name": "Zambia", "code": "ZM" },
+          { "name": "Zimbabue", "code": "ZW" }
+        ]
+      }
+    }
+  }
+}
